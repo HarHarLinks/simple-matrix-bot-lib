@@ -35,6 +35,7 @@ markdown = ">=3.3"
 wheel = "^0.37.0"
 twine = "^3.4.2"
 pytest = "^6.2.5"
+mypy = "^0.910"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
