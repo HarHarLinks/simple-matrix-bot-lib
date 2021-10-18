@@ -1,4 +1,4 @@
-from fernet_wrapper import Wrapper as fw
+from fernet_wrapper import Wrapper as fw # type: ignore
 
 
 class Creds:

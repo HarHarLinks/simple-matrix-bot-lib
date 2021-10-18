@@ -1,4 +1,4 @@
-from nio import RoomMessageText
+from nio import RoomMessageText # type: ignore
 
 
 class Listener:

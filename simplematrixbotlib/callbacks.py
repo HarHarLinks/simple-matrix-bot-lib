@@ -1,4 +1,4 @@
-from nio import InviteMemberEvent, RoomMessageText
+from nio import InviteMemberEvent, RoomMessageText # type: ignore
 
 
 class Callbacks:

@@ -1,12 +1,12 @@
 import asyncio
-from nio import (AsyncClient, SyncResponse, RoomMessageText)
-from PIL import Image
-import aiofiles.os
+from nio import (AsyncClient, SyncResponse, RoomMessageText) # type: ignore
+from PIL import Image # type: ignore
+import aiofiles.os # type: ignore
 import mimetypes
 import os
 import markdown
 
-from nio.responses import UploadResponse
+from nio.responses import UploadResponse # type: ignore
 
 
 class Api:
