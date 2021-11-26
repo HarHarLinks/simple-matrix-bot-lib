@@ -132,7 +132,9 @@ class MessageMatch(Match):
             Returns a list of strings that are the "words" of the message, except for the first "word", which would be the command.
         """
 
-        return self.event.body.split()[1:]
+        if self._body_without_prefix is None:
+            self.command()  # calculate _body_without_prefix
+        return self._body_without_prefix.split()[1:]
 
     def contains(self, string):
         """
